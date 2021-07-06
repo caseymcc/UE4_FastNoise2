@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# Ignore UE4
+Intermediate/
+Saved/
+
+.vs/
+Binaries/
+Source/ThirdParty/generated

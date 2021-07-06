@@ -1,0 +1,3 @@
+[submodule "Source/Deps/FastNoise2"]
+	path = Source/Deps/FastNoise2
+	url = https://github.com/Auburn/FastNoise2.git
