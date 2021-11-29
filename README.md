@@ -1,5 +1,5 @@
 # UE4_FastNoise2
-Example for importing FastNoise2 into UE4
+Example for how to use [UE4CMake](https://github.com/caseymcc/UE4CMake) to import FastNoise2 into UE4
 
 Use:
 ```
