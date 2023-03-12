@@ -1,9 +1,5 @@
-.git
-.vs
-.vscode
-Content
-DerivedDataCache
 Intermediate
 Saved
-Plugins/UE4CMake/Content
+.vscode
+.git
 Plugins/UE4CMake/Intermediate
