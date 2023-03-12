@@ -13,6 +13,6 @@ public class FastNoise2Example : ModuleRules
 
         PrivateDependencyModuleNames.AddRange(new string[] {  });
 
-        CMakeTarget.add(Target, this, "FastNoise", Path.Combine(this.ModuleDirectory, "../Deps/FastNoise2"), "-DFASTNOISE2_NOISETOOL=OFF");
+        CMakeTarget.add(Target, this, "FastNoise", Path.Combine(this.ModuleDirectory, "../Deps/FastNoise2"), "-DFASTNOISE2_NOISETOOL=OFF", true);
     }
 }
