@@ -36,5 +36,6 @@ Intermediate/
 Saved/
 
 .vs/
+.vscode/
 Binaries/
 Source/ThirdParty/generated

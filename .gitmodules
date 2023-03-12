@@ -1,5 +1,5 @@
 [submodule "Plugins/CMakeTarget"]
-	path = Plugins/CMakeTarget
+	path = Plugins/UE4CMake
 	url = https://github.com/caseymcc/UE4CMake.git
 [submodule "Source/Deps/FastNoise2"]
 	path = Source/Deps/FastNoise2
