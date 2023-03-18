@@ -13,5 +13,7 @@ UCLASS()
 class FASTNOISE2EXAMPLE_API AFastNoise2ExampleGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
+
+	void InitGame(const FString & MapName, const FString &Options, FString &ErrorMessage) override;
 	
 };

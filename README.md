@@ -14,3 +14,13 @@ git clone https://github.com/caseymcc/UE4_FastNoise2.git
 git submodule update --init --recursive
 ```
 
+# Include and Using the lib
+Once checkout you can use either VS2022 or VSCode on windows to build or VSCode on Linux to build. An example on how to include and use FastNoise in you source can be seen in the `FastNoise2ExampleGameModeBase.cpp` file. You should be able to include simply using `FastNoise` before the file you would like to include, like this 
+```
+#include "FastNoise/FastNoise.h"
+```
+and using the library is a simple as calling the functions in the library
+```
+FastNoise::SmartNode<FastNoise::OpenSimplex2> os2Noise=FastNoise::New<FastNoise::OpenSimplex2>();
+FastSIMD::eLevel simdLevel=os2Noise->GetSIMDLevel();
+```
